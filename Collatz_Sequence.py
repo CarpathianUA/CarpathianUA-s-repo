@@ -17,6 +17,6 @@ try:
 except Exception:
 	print 'You must enter integer!'	
 	sys.exit()
-	
+
 while num > 1:
 	num = collatz(num)
