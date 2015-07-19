@@ -1,4 +1,4 @@
-""" From Chapter 3 "Automate this boring stuff with Python" """
+#From Chapter 3 of "Automate this boring stuff with Python" 
 
 #!/usr/bin/env python
 
@@ -11,7 +11,7 @@ def collatz(num):
 	elif num % 2 == 1:
 		print 3 * num + 1
 		return 3 * num + 1
-		
+	
 try:
 	num = int(input('Enter number: \n'))
 except Exception:
