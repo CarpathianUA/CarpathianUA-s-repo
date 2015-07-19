@@ -1,1 +1,1 @@
-# Study
+This is my study repo
